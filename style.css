@@ -5,24 +5,28 @@
 }
 #hero-section{
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-color: #1b0b00;
   color: wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
+   background-image: url(images/coffee3.jpg);
+  background-repeat: no-repeat;
+  background-position: 600px;
+  background-size: 60%;
 }
 
 #hero-section nav{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   border: 1px solid wheat;
-  margin: 10px;
+  margin: 30px;
   box-sizing: border-box;
 }
 
@@ -32,7 +36,9 @@
   list-style: none;
   gap: 20px;
 }
-
+#hero-section nav .logo{
+  color: white;
+}
 #hero-section nav .menu-bar li a,
 #hero-section nav a{
   color: wheat;
@@ -53,5 +59,58 @@
 .signin-search{
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 15px;
+}
+
+#hero-section .cta-heroimage{
+  width: 100%;
+  max-width: 1100px;
+  color: white;
+}
+#hero-section .cta-heroimage .text{
+  width: 50%;
+}
+#hero-section .cta-heroimage .cta{
+  font-size: 75px;
+  width: 100%;
+  line-height: 110%;
+  margin-bottom: 30px;
+}
+
+#hero-section .cta-heroimage p{
+  font-size: 20px;
+  margin-bottom: 5cqh;
+}
+#hero-section .cta-heroimage .links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#hero-section .cta-heroimage .order{
+  text-decoration: none;
+  background-color: white;
+  padding: 20px;
+  color: #1b0b00;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+}
+
+#hero-section .cta-heroimage .explore{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+}
+
+#hero-section .cta-heroimage .image{
+  img{
+    width: 1000px;
+    
+  }
 }
